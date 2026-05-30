@@ -1,0 +1,30 @@
+{
+  "name": "House of Tailors · Management Panel",
+  "short_name": "HoT Panel",
+  "description": "Bespoke tailoring management — Dubai",
+  "start_url": "/house-of-tailors/",
+  "scope": "/house-of-tailors/",
+  "display": "standalone",
+  "background_color": "#0a0806",
+  "theme_color": "#c4a35a",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "https://mzcfjyrosamuogzskbrp.supabase.co/storage/v1/object/public/assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://mzcfjyrosamuogzskbrp.supabase.co/storage/v1/object/public/assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {"name": "Appointments", "url": "/house-of-tailors/#appointments"},
+    {"name": "Orders", "url": "/house-of-tailors/#orders"},
+    {"name": "POS", "url": "/house-of-tailors/#pos"}
+  ]
+}
